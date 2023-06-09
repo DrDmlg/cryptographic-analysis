@@ -1,5 +1,6 @@
-public class CesarCipher {
 
+
+public class CesarCipher {
 
     private static final String ALPHABET =
               "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -26,6 +27,13 @@ public class CesarCipher {
         return encrypt(message, key * -1);
     }
 
+    public int getLength(){
+        return ALPHABET.length();
+    }
+
+    public char[] getCharArray(){
+        return ALPHABET.toCharArray();
+    }
 }
 
 
