@@ -9,7 +9,7 @@
 
 ## Установка
 Склонируйте репозиторий на свой локальный компьютер:
-- git clone https://github.com/DrDmlg/Cryptoces.git
+- git clone https://github.com/DrDmlg/Cryptographic-Analysis.git
 
 ## Использование
 
