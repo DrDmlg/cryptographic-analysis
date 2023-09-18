@@ -41,6 +41,5 @@ public class Parsing {
             map.merge(aChar, 1, Integer::sum);
         }
         return map.entrySet().stream().sorted(Map.Entry.<Character, Integer>comparingByValue().reversed()).toList();
-
     }
 }

@@ -1,5 +1,3 @@
-
-
 public class CesarCipher {
 
     private static final String ALPHABET =

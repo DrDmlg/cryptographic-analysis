@@ -1,5 +1,4 @@
 
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -42,7 +41,6 @@ public class Bruteforce {
 
         while (isValidate) {
             Util.writeMessage(text.substring(0, 20));
-//понять какой кусок текста предоставить пользователю. Первые 100 символов (например)
 
             Util.writeMessage("Понятен ли этот текст? Y/N");
             String answer = Util.readString();

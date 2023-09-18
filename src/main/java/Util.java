@@ -1,5 +1,3 @@
-
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -28,11 +26,5 @@ public class Util {
         String pathName = path.substring(0, path.lastIndexOf("."));
         String expansion = path.substring(path.lastIndexOf("."));
         return Path.of(pathName + suffix + expansion);
-        /* Path parentDir = Path.of(path).getParent().resolve(suffix.substring(1));
-        String expansion = path.substring(path.lastIndexOf("."));
-        return Path.of(parentDir + expansion);
-         */
-
     }
-
 }

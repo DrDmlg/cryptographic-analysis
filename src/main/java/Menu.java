@@ -3,8 +3,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-
-
 public class Menu {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -17,7 +15,6 @@ public class Menu {
             System.out.println("4. Стат. анализ");
             System.out.println("5. Выход из программы");
 
-
             String answer = reader.readLine();
 
             switch (answer) {
@@ -25,11 +22,9 @@ public class Menu {
                 case ("2") -> new EncryptedDecrypted().encryptedDecrypted(false);
                 case ("3") -> new Bruteforce().bruteForce();
                 case ("4") -> new Parsing().parse();
-
                 case ("5") -> {
                     return;
                 }
-
             }
         }
     }
